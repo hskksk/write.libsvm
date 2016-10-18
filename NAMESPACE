@@ -1,0 +1,3 @@
+useDynLib(write.libsvm)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
